@@ -58,7 +58,7 @@ HE本身并不具备任何功能，它只是提供了管理和编写规则的能
 
 将所有对`sale.jd.com`、`item.jd.com`、`www.jd.com`的HTTP请求重定向到HTTPS：
 
-正则表达式为`http://(sale|item|www).jd.com`，重定向至`https://$1.jd.com`
+正则表达式为`http://(sale|item|www).jd.com`，重定向至`https://recaptcha.net/recaptcha/api.js`
 
 将所有维基百科的HTTP请求重定向至HTTPS：
 
